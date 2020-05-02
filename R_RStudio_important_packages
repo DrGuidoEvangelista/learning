@@ -1,0 +1,17 @@
+# Important R packages : 
+# one package to load them all is pacman : package manager
+# I can use pacman to install new packages which I can see on the right in RStudio
+# To load new packages all I have to do is this 
+#but first we have to install pacman
+install.packages('pacman')
+library(pacman)
+#then we add more packages that we need
+pacman::p_load (pacman,dplyr,GGally, ggplot2,ggthemes, ggvis, httr, lubridate, plotly, rmarkdown, shiny, stringr, tidyr)
+
+#On RStudio we can see all the packages, installed and not, on the lower right side
+
+#to unload some packages there is an easy function
+p_unload(httr, dplyr)
+
+#or to unload all of them
+p_unload(all)
