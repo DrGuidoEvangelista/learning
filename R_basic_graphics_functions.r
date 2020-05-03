@@ -7,6 +7,14 @@ head(iris)
 plot(iris$Species) #to have a graph with two variables 
 plot(iris$Petal.Lenght) #to try with a different variable
 
+#useful options
+pch= 19    #point character, there are 24 point charanters that I can easily find on the web and choose what I prefer
+cex =  1.5    #size of the point
+xlab = "P"   #title of x axe
+ylab ="O"    #title of y axe
+main="Yeah"   #title of the graph
+col= "yellow"  #colour of the points
+
 #some easy graph that can be really useful 
 #the numbers between the parentesis are the interval of numbers of the graph
 plot(cos, 0, 2*pi)  #cos means cosin 
